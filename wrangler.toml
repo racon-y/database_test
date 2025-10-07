@@ -6,6 +6,3 @@ main = "src/index.js"
 binding = "DB"
 database_name = "todo_db"
 database_id = "37f238ca-5608-4fd8-a5d6-fc89593e9dcc"
-
-[site]
-bucket = "./public"
