@@ -1,4 +1,4 @@
-name = "database-test"
+name = "testdb"
 compatibility_date = "2025-10-07"
 main = "src/index.js"
 
