@@ -1,0 +1,10 @@
+{
+  "name": "database-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "^4.42.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy"
+  }
+}

@@ -1,0 +1,15 @@
+name = "database-test"
+compatibility_date = "2025-10-07"
+main = "src/index.js"
+
+[d1_databases]
+DB = "YOUR_D1_DATABASE_NAME"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "YOUR_R2_BUCKET_NAME"
+preview_bucket_name = "YOUR_R2_BUCKET_NAME"
+
+[site]
+bucket = "./public"
+entry-point = "src"
