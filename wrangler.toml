@@ -2,14 +2,10 @@ name = "database-test"
 compatibility_date = "2025-10-07"
 main = "src/index.js"
 
-[d1_databases]
-DB = "YOUR_D1_DATABASE_NAME"
-
-[[r2_buckets]]
-binding = "BUCKET"
-bucket_name = "YOUR_R2_BUCKET_NAME"
-preview_bucket_name = "YOUR_R2_BUCKET_NAME"
+[[d1_databases]]
+binding = "DB"
+database_name = "todo_db"
+database_id = "37f238ca-5608-4fd8-a5d6-fc89593e9dcc"
 
 [site]
 bucket = "./public"
-entry-point = "src"
